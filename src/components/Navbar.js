@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
+import {Link} from "react-router-dom"
 
 function Navbar() {
     return (
-        <div>
-            <h1>Jack</h1>
-            <h2>Parsons</h2>
-        </div>
+        <>
+        <nav className="navbar">
+            <div className="navbar-container">
+                <Link to="/" className="navbar-logo">
+                    Jack
+                </Link>
+            </div>
+        </nav>
+        </>
     )
 }
 
