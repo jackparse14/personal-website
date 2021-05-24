@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 4px solid rgb(252, 100, 151);
 }
 
 .footer-subscription{
