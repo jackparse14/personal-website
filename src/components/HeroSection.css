@@ -41,8 +41,24 @@ video {
     margin: 6px;
 }
 
-.fa-play-circle{
-    margin-left: 4px;
+.hero-btns-social-media{
+    margin-top:10px ;
+}
+
+.hero-btns-social-media a{
+    color: rgb(252, 100, 151);
+    margin:20px;
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px rgb(150, 50, 83);
+}
+
+.hero-btns-social-media a:hover{
+    transition: 0.3s;
+    color: #fff;
+}
+
+.hero-btns-social-media a:active{
+    color: #242424;
 }
 
 @media screen and (max-width: 960px) {
