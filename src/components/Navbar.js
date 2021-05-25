@@ -41,17 +41,22 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className ="nav-item">
+                            <Link to="aboutme" className="nav-links" onClick={closeMobileMenu}>
+                                About Me
+                            </Link>
+                        </li>
+                        <li className ="nav-item">
                             <Link to="cards" className="nav-links" onClick={closeMobileMenu}>
                                 Projects
                             </Link>
                         </li>
                         <li className ="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="modelling" className="nav-links" onClick={closeMobileMenu}>
                                 3D Modelling
                             </Link>
                         </li>
                         <li className ="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="pixelart" className="nav-links" onClick={closeMobileMenu}>
                                 2D Pixel Art
                             </Link>
                         </li>

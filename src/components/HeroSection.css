@@ -4,17 +4,17 @@ video {
     height: 100%;
     position: fixed;
     z-index: -1;
+    filter:blur(4px);
 }
 
 .hero-container{
-     /* background: url('images/img-home.jpg') center center/cover no-repeat;  */
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 0 1000px rgba(252, 100, 151, 0.2);
     object-fit: contain;
 }
 
@@ -22,6 +22,8 @@ video {
     color: #fff;
     font-size: 100px;
     margin-top: -100px;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Playfair Display', serif;
     text-shadow: 3px 0 0 #242424, -3px 0 0 #242424, 0 3px 0 #242424, 0 -3px 0 #242424, 3px 3px #242424, -3px -3px 0 #242424, 3px -3px 0 #242424, -3px 3px 0 #242424;
 }
 
@@ -31,14 +33,6 @@ video {
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 2px 0 0 #242424, -2px 0 0 #242424, 0 2px 0 #242424, 0 -2px 0 #242424, 1px 1px #242424, -1px -1px 0 #242424, 1px -1px 0 #242424, -1px 1px 0 #242424;
-}
-
-.hero-btns{
-    margin-top: 32px;
-}
-
-.hero-btns .btn{
-    margin: 6px;
 }
 
 .hero-btns-social-media{
@@ -53,7 +47,7 @@ video {
 }
 
 .hero-btns-social-media a:hover{
-    transition: 0.3s;
+    transition: 0.2s ease-out;
     color: #fff;
 }
 
@@ -75,12 +69,5 @@ video {
     }
     .hero-container > p {
         font-size: 30px;
-    }
-    .btn-mobile{
-        display: block;
-        text-decoration: none;
-    }
-    .btn {
-        width: 100%;
     }
 }
