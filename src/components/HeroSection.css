@@ -11,47 +11,47 @@ video {
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     box-shadow: inset 0 0 0 1000px rgba(252, 100, 151, 0.2);
     object-fit: contain;
+    text-shadow: 1.5px 1.5px rgb(150, 50, 83);
+}
+.hero-info{
+    margin-left: 20vw;
+    margin-top: 20vh;
 }
 
-.hero-container > h1 {
+.hero-info > h1 {
     color: #fff;
     font-size: 100px;
-    margin-top: -100px;
-    font-family: 'Pattaya', sans-serif;
     font-family: 'Playfair Display', serif;
-    text-shadow: 3px 0 0 #242424, -3px 0 0 #242424, 0 3px 0 #242424, 0 -3px 0 #242424, 3px 3px #242424, -3px -3px 0 #242424, 3px -3px 0 #242424, -3px 3px 0 #242424;
-}
-
-.hero-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 2px 0 0 #242424, -2px 0 0 #242424, 0 2px 0 #242424, 0 -2px 0 #242424, 1px 1px #242424, -1px -1px 0 #242424, 1px -1px 0 #242424, -1px 1px 0 #242424;
-}
-
-.hero-btns-social-media{
-    margin-top:10px ;
-}
-
-.hero-btns-social-media a{
-    color: rgb(252, 100, 151);
-    margin:20px;
-    font-size: 50px;
+    text-decoration: none;
     text-shadow: 1.5px 1.5px rgb(150, 50, 83);
 }
 
-.hero-btns-social-media a:hover{
+.hero-info-secondary > p {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+}
+.hero-social-media{
+    float: right;
+}
+
+.hero-info-secondary a{
+    color: rgb(252, 100, 151);
+    margin:10px;
+    font-size: 32px;
+    text-shadow: 1.5px 1.5px rgb(150, 50, 83);
+}
+
+.hero-info-secondary a:hover{
     transition: 0.2s ease-out;
     color: #fff;
 }
 
-.hero-btns-social-media a:active{
+.hero-info-secondary a:active{
     color: #242424;
 }
 
